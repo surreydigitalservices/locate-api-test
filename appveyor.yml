@@ -2,7 +2,6 @@ branches:
   only:
   - master
 skip_tags: true
-build: off
 deploy: off
 environment:
   LocateApiHost:
