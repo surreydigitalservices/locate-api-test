@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="af15f944-e05c-4737-b430-263254400833" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="fea7b7e1-0af6-4b0f-997a-e19a8cdd5be8" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -19,11 +19,11 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://juba.guildford.gov.uk/Services/SinglePoint/SearchService.asmx" Protocol="http" SourceId="1" />
+    <MetadataSource Address="https://juba.guildford.gov.uk/Services/SinglePoint/SearchService.asmx" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="SearchService.disco" MetadataType="Disco" ID="7bf8533b-4980-4581-8a6b-e2e48a4330df" SourceId="1" SourceUrl="http://juba.guildford.gov.uk/Services/SinglePoint/SearchService.asmx?disco" />
-    <MetadataFile FileName="SearchService.wsdl" MetadataType="Wsdl" ID="447f3468-82c6-4ba4-b4c2-f0dcb824976a" SourceId="1" SourceUrl="http://juba.guildford.gov.uk/Services/SinglePoint/SearchService.asmx?wsdl" />
+    <MetadataFile FileName="SearchService.disco" MetadataType="Disco" ID="aa24ce53-4c3c-4bdc-a19c-4035daeab0a5" SourceId="1" SourceUrl="https://juba.guildford.gov.uk/Services/SinglePoint/SearchService.asmx?disco" />
+    <MetadataFile FileName="SearchService.wsdl" MetadataType="Wsdl" ID="26560d2f-0279-4703-9aae-589aaaafeba3" SourceId="1" SourceUrl="https://juba.guildford.gov.uk/Services/SinglePoint/SearchService.asmx?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

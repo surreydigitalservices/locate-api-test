@@ -77,7 +77,9 @@
     <Compile Include="SinglePoint\Helper.cs" />
     <Compile Include="SinglePoint\Lookup.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Service References\SinglePoint\SearchService1.disco" />
+  </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
@@ -85,6 +87,7 @@
     <None Include="app.config" />
     <None Include="packages.config" />
     <None Include="Service References\SinglePoint\SearchService.wsdl" />
+    <None Include="Service References\SinglePoint\SearchService1.wsdl" />
     <None Include="Service References\SinglePoint\SurreyDigitalServices.Locate.Test.SinglePoint.AdapterCollection.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
@@ -102,9 +105,6 @@
     <WCFMetadataStorage Include="Service References\SinglePoint\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\SinglePoint\SearchService.disco" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Service References\SinglePoint\configuration91.svcinfo" />
   </ItemGroup>
   <ItemGroup>
@@ -115,6 +115,9 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\SinglePoint\SearchService.disco" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

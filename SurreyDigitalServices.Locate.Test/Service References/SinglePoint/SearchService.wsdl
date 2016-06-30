@@ -1261,16 +1261,16 @@
   </wsdl:binding>
   <wsdl:service name="SearchService">
     <wsdl:port name="SearchServiceSoap" binding="tns:SearchServiceSoap">
-      <soap:address location="http://juba.guildford.gov.uk/Services/SinglePoint/SearchService.asmx" />
+      <soap:address location="https://juba.guildford.gov.uk/Services/SinglePoint/SearchService.asmx" />
     </wsdl:port>
     <wsdl:port name="SearchServiceSoap12" binding="tns:SearchServiceSoap12">
-      <soap12:address location="http://juba.guildford.gov.uk/Services/SinglePoint/SearchService.asmx" />
+      <soap12:address location="https://juba.guildford.gov.uk/Services/SinglePoint/SearchService.asmx" />
     </wsdl:port>
     <wsdl:port name="SearchServiceHttpGet" binding="tns:SearchServiceHttpGet">
-      <http:address location="http://juba.guildford.gov.uk/Services/SinglePoint/SearchService.asmx" />
+      <http:address location="https://juba.guildford.gov.uk/Services/SinglePoint/SearchService.asmx" />
     </wsdl:port>
     <wsdl:port name="SearchServiceHttpPost" binding="tns:SearchServiceHttpPost">
-      <http:address location="http://juba.guildford.gov.uk/Services/SinglePoint/SearchService.asmx" />
+      <http:address location="https://juba.guildford.gov.uk/Services/SinglePoint/SearchService.asmx" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>
