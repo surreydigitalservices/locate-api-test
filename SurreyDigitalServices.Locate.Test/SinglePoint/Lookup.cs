@@ -9,7 +9,7 @@ namespace SurreyDigitalServices.Locate.Test.SinglePoint
     {
         public static async Task<IEnumerable<IAddress>> ByPostCode(string PostCode)
         {
-            var SPClient = new SearchServiceSoapClient("SinglePointSearch", Settings.SinglePointUri);
+            var SPClient = new SearchServiceSoapClient("SearchServiceSoap", Settings.SinglePointUri);
 
             var Search = await SPClient.AdvancedSearchAsync("LLPG", "POSTCODE=" + PostCode + "|LOGICAL_STATUS=1");
 
