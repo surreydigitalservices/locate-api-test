@@ -1,0 +1,13 @@
+branches:
+  only:
+  - master
+skip_tags: true
+build: off
+deploy: off
+environment:
+  LocateApiHost:
+    secure: yjWwC6LtbM2DXPyGcol5NV3Ib5NpYdka9kk3Ti+r9AgMisLJM0cZdpMjm69Itmr4
+  LocateApiToken:
+    secure: dgMNvXLMY+UPgL9vXIRpyQGhA7R5Qz1dYWSPw0SRV6k=
+  SinglePointUri:
+    secure: zcZmrOKldD6/ZGBzPJEsdlw6vfj24O7nZmfWQoWjLaTs4gewoC2niOCSuMMf64gWqYHLCXjmQU3hVSqyi9ss/Hb98CoHbkpp99ZKpf5Feqg=
