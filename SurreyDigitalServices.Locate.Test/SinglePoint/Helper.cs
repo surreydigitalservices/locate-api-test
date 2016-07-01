@@ -37,7 +37,7 @@ namespace SurreyDigitalServices.Locate.Test.SinglePoint
                 Address.Street = result.FieldItems.TryGetValue("STREET");
                 Address.Locality = result.FieldItems.TryGetValue("LOCALITY");
                 Address.Town = result.FieldItems.TryGetValue("TOWN");
-                Address.Area = result.FieldItems.TryGetValue("TOWN");
+                Address.Area = result.FieldItems.TryGetValue("POSTTOWN");
                 Address.PostCode = result.FieldItems.TryGetValue("POSTCODE");
 
                 return Address;

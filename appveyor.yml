@@ -6,9 +6,18 @@ before_build:
   - nuget restore
 deploy: off
 environment:
+
+### Live ###
+#  LocateApiHost:
+#    secure: yjWwC6LtbM2DXPyGcol5NV3Ib5NpYdka9kk3Ti+r9AgMisLJM0cZdpMjm69Itmr4
+#  LocateApiToken:
+#    secure: dgMNvXLMY+UPgL9vXIRpyQGhA7R5Qz1dYWSPw0SRV6k=
+
+### Staging ###
   LocateApiHost:
-    secure: yjWwC6LtbM2DXPyGcol5NV3Ib5NpYdka9kk3Ti+r9AgMisLJM0cZdpMjm69Itmr4
+    secure: YAR2KtvqGqkVPzvKtaVYGV6KUTeSt0a715ZUkEuGh3P24TY7NXeKFLXquq+khorJjoD8MN8//oF3yHat8BNwMw==
   LocateApiToken:
-    secure: dgMNvXLMY+UPgL9vXIRpyQGhA7R5Qz1dYWSPw0SRV6k=
+    secure: kFY5aBo4jygEz1cjAzocuZaeXxlYd5yIOlYhiR4Nh3Q=
+
   SinglePointUri:
     secure: zcZmrOKldD6/ZGBzPJEsdlw6vfj24O7nZmfWQoWjLaTs4gewoC2niOCSuMMf64gWqYHLCXjmQU3hVSqyi9ss/Hb98CoHbkpp99ZKpf5Feqg=
